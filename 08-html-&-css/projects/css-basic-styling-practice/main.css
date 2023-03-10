@@ -1,0 +1,43 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    padding: auto;
+    margin: auto;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: wheat;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    padding: ;
+    margin: auto;
+    font-weight: ;
+    color: rgb(88, 74, 48);
+    background-color: wheat;
+    text-align: center;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    padding: 10px;
+    margin: auto;
+    color: rgb(88, 74, 48);
+    background-color: wheat;
+    text-align: center;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: ;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
