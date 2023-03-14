@@ -1,0 +1,72 @@
+html,
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #2b2d2f;
+    position: relative;
+}
+
+.element {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100px;
+    height: 280px;
+    font-size: 36px;
+}
+
+#yellow-box {
+    background-color: #ffff00;
+    /* /* Fill these in */
+    position: absolute;
+    bottom: ;
+    left: 10px;
+    right: 0;
+    top: ;
+    z-index: auto;
+}
+
+#pink-box {
+    background-color: #ff69b4;
+    /* /* Fill these in */
+    position: absolute;
+    bottom: ;
+    left: 20px;
+    right: 0;
+    top: ;
+    z-index: auto;
+}
+
+#blue-box {
+    background-color: #00eeee;
+    /* /* Fill these in */
+    position: absolute;
+    bottom: ;
+    left: 30px;
+    right: ;
+    top: ;
+    z-index: auto;
+}
+
+#red-box {
+    background-color: #ff0000;
+    /* /* Fill these in */
+    position: absolute;
+    bottom: ;
+    left: 40px;
+    right: ;
+    top: ;
+    z-index: auto;
+}
+
+#orange-box {
+    background-color: #ffa500;
+    /* /* Fill these in */
+    position: relative;
+    bottom: ;
+    left: 60px;
+    right: ;
+    top: ;
+    z-index: auto;
+}
