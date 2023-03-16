@@ -1,0 +1,94 @@
+.masthead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "menu-search . action"
+        ". languages ."
+        "date logo current";
+}
+
+.masthead__menu-and-search {
+    grid-area: menu-search;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.masthead__action {
+    grid-area: action;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+i.fa-cog {
+    padding: 7px;
+}
+
+.masthead__languages {
+    grid-area: languages;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 11px;
+    z-index: -1;
+}
+
+.masthead__date {
+    grid-area: date;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+.masthead__logo {
+    grid-area: logo;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px 0 11px 0;
+}
+
+.masthead__current {
+    grid-area: current;
+    font-size: 11px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+.top-left {
+    font-size: 11px;
+    padding: 7px 9px;
+}
+
+.top-left:hover {
+    background-color: #d6d6d6;
+    border-radius: 7px;
+}
+
+.css,
+.html,
+.javascript,
+.python {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: darkgray;
+    margin: 0 5px;
+}
+
+.languages {
+    border: 1px solid lightgrey;
+    border-bottom: none;
+    background-color: white;
+    position: relative;
+}

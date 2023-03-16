@@ -1,0 +1,20 @@
+nav.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-nav-items>li {
+    padding: 10px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 1000px) {
+    nav.main-nav {
+        display: none;
+    }
+}
