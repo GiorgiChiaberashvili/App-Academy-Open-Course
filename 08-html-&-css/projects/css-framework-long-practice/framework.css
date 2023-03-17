@@ -1,0 +1,165 @@
+/* Define font family and sizes */
+@import url('https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: 40px 80px;
+}
+
+
+
+/* Style the navigation bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+}
+
+.nav-link.disabled {
+    color: #6c757d;
+}
+
+.nav-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.badge {
+    background-color: #6c757d;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/* Style headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: -4px -4px 5px rgb(137, 130, 238);
+
+}
+
+*/
+
+/* Style paragraph */
+p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style buttons */
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0062cc;
+}
+
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+    border: none;
+    padding: 0;
+}
+
+/* Style card */
+.card {
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    line-height: 1.5;
+}
+
+/* Style alert */
+.alert {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+/* Style form */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
