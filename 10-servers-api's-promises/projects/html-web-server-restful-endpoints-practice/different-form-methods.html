@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Different Form Methods</title>
+</head>
+
+<body>
+  <!-- clicking on this <a> tag will make a GET / request -->
+  <a href="/">Link to Resource</a>
+
+  <!-- submitting this <form> will make a GET / request -->
+  <form action="/" method="GET">
+    <button type="submit">GET</button>
+  </form>
+
+  <!-- submitting this <form> will make a POST / request -->
+  <form action="/" method="POST">
+    <button type="submit">POST</button>
+  </form>
+
+  <!-- submitting this <form> will make a GET / request -->
+  <form action="/" method="PATCH">
+    <button type="submit">PATCH</button>
+  </form>
+
+  <!-- submitting this <form> will make a GET / request -->
+  <form action="/" method="PUT">
+    <button type="submit">PUT</button>
+  </form>
+
+  <!-- submitting this <form> will make a GET / request -->
+  <form action="/" method="DELETE">
+    <button type="submit">DELETE</button>
+  </form>
+</body>
+
+</html>
+
+<!-- Access the home page
+
+GET /
+GET /home
+
+Submit a contact form
+
+POST /contact
+
+Access the posts page
+
+GET /post
+
+Access the edit page for a post
+
+GET /posts/post:id/edit
+
+Access the create page for a post
+
+GET /posts/new
+
+Create a new user
+
+POST /users
+
+Log In
+
+POST/login
+
+Log Out
+
+POST /logout
+
+Access the comments for a post page
+
+GET /post/comment:id/comments
+
+Access the create page for a post's comment
+
+GET /posts/post:id/comments
+
+Access the edit page for a comment
+
+GET/posts/post:id/comments/comment:id/edit
+
+Submit a like for a post
+
+POST /posts/post:id/likes/new
+
+Delete a like for a post
+
+POST/posts/post:id/like:id/delete
+
+Access all the posts of a user
+
+GET /user/:user/posts
+
+Submit a search on posts
+
+POST /posts
+
+-->
