@@ -29,12 +29,15 @@ Example 4:
 ***********************************************************************/
 function countDownTimer(num) {
 
-        if( num > 0){
-          return countDownTimer
-        } else {
-            return "Happy New Year!"
-        }
+  if (num > 0) {
+    return countDownTimer
+  } else {
+    return "Happy New Year!"
+  }
 }
+
+let threeDays = countDownTimer(3)
+console.log(threeDays())
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
