@@ -25,7 +25,6 @@ const server = http.createServer((req, res) => {
     return req.end(staticFile);
   }
 
-
   const html = fs.readFileSync('./index.html', 'utf-8');
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
