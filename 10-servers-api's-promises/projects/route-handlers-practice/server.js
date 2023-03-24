@@ -35,8 +35,6 @@ const server = http.createServer((req, res) => {
 
     // define route handlers here
 
-
-
     // Do not edit below this line
     // Return a 404 response when there is no matching route handler
     res.statusCode = 404;
