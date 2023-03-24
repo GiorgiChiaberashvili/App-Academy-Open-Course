@@ -24,22 +24,31 @@ console.log(table2(75)); // STILL prints 6
 
 ***********************************************************************/
 function recVolume(height) {
-
+  // An array dimensions is declared and initialized with height as its first element.
   let dimensions = [height];
+  // A function measure is defined. This function takes one parameter num.
   const measure = (num) => {
-
+    // Classic if condition checks whether the length of the dimensions array is less than 3.
+    // If it is, then the current value of num is added to the end of the dimensions array.
     if (dimensions.length < 3) {
       dimensions.push(num);
     }
+    // The next if condition checks whether the length of the dimensions array is exactly 3.
+    // If it is, then the product of all the numbers in the dimensions array is calculated and stored in a variable sum.
+    // Reduce multiplies all three dimensions
     if (dimensions.length === 3) {
       let sum = dimensions.reduce((acc, el) => (acc *= el));
       return sum;
+      // And Lastly If the length of the dimensions array is not 3, the function measure is returned,
+      // which allows it to be called again with another parameter. Cause we now all three dimensions pretty much at this point.
     } else {
       return measure;
     }
   };
+  // and of course we return measure function which is final result
   return measure;
 }
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
   module.exports = recVolume;
