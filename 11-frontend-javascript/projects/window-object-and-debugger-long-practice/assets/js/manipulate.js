@@ -2,12 +2,14 @@ function changeTitle() {
     // Change the title of the page to "(Your name)'s Portfolio"
 
     // Your code here
+    window.document.title = "Suchitra Mohan";
 }
 
 function changeHeader() {
     // Change the name in the h1 of the page to your name
 
     // Your code here
+    document.body.children[0].children[0].innerText = "Suchitra Mohan"
 }
 
 function changeAboutMe() {
@@ -15,4 +17,5 @@ function changeAboutMe() {
      passage about yourself */
 
     // Your code here
+     document.body.children[1].children[1].innerText = "I study in app academy"
 }
