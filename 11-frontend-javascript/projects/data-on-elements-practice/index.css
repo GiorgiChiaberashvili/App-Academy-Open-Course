@@ -1,0 +1,58 @@
+li {
+    list-style-type: none;
+    width: 33%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+/* Your code here */
+
+#shopping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+#shopping-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Style the different types of items */
+#shopping-list li[type="drinks"] {
+    background-color: #d7ffd4;
+}
+
+#shopping-list li[type="bakery"] {
+    background-color: #f1e1d4;
+}
+
+#shopping-list li[type="canned"] {
+    background-color: #313e4a;
+}
+
+#shopping-list li[type="dairy"] {
+    background-color: #ebdfdf;
+}
+
+#shopping-list li[type='frozen'] {
+    background-color: aqua;
+}
+
+#shopping-list li[type='meats'] {
+    background-color: rgb(255, 0, 0);
+}
+
+#shopping-list li[type='produce'] {
+    background-color: rgb(174, 0, 255);
+}
+
+#shopping-list li[type='toiletries'] {
+    background-color: rgb(0, 0, 0);
+}
+
+#shopping-list li[type='other'] {
+    background-color: rgb(255, 0, 187);
+}
