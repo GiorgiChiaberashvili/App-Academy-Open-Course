@@ -1,0 +1,5 @@
+
+[4mSequelize CLI [Node: 16.18.0, CLI: 6.6.0, ORM: 6.31.1][24m
+
+seeders folder at "/home/korben/aao projects/aao-cirriculum/14-express-&-sequelize/projects/sequelize-seeders-short-practice/server/db/seeders" already exists.
+New seed was created at [94m/home/korben/aao projects/aao-cirriculum/14-express-&-sequelize/projects/sequelize-seeders-short-practice/server/db/seeders/20230515085519-fancy-colors.js.js[39m .
