@@ -1,0 +1,4 @@
+.env
+node_modules/
+
+SECRET_KEY=dc1783e61ab05a9fa1b64d892f4b8edab51c159c7091d57feb955ad5ae8ce9191dbe3a50f95086a018654e6f3c7dbffd6215d656d63a2da811843fc746a664b2
