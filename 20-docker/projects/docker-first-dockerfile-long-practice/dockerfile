@@ -1,0 +1,11 @@
+# Use an official Node.js runtime as the base image
+FROM node:16.18.0-alpine
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Copy the local server.js file into the /app directory in the container
+COPY server.js .
+
+# Run the command 'node server.js' when the container starts
+CMD ["node", "server.js"]
